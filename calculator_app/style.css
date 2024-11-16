@@ -1,0 +1,133 @@
+body {
+  background-color: #3b4664;
+}
+.display{
+  font-size: medium;
+  color: white;
+  width: 276px;
+height: 42px;
+top: 270px;
+left: 650px;
+gap: 0px;
+opacity: 0px;
+background-color: #181f32;
+position: relative;
+font-family: Segoe UI;
+font-size: 55px;
+font-weight: 700;
+line-height: 73.15px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.content1{
+ width: 58px;
+height: 20px;
+top: 148px;
+left: 466px;
+gap: 0px;
+opacity: 0px;
+align-items: center;
+justify-content: center;
+color: white;
+position: relative;
+top: 135px;
+
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+#container1 {
+  background-color: #181f32;
+  width: 536px;
+  height: 142.73px;
+  top: 194px;
+  left: 466px;
+  gap: 0px;
+  border-radius: 12px 12px 12px 12px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 20px;
+}
+
+.parent2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+#container2 {
+  width: 536px;
+  margin-top: -175px;
+  height: 487px;
+  gap: 0px;
+  border-radius: 12px 12px 12px 12px;
+  opacity: 0px;
+  background-color: #252d44;
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 0 auto; 
+    padding: 20px;
+    width: 500px; 
+    height: auto; 
+    gap: 17px; 
+  }
+  
+  .button {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    width: 100%; 
+    height: 60px;
+    border-radius: 12px;
+    margin-left: 0; 
+    margin-top: 15px;
+  }
+  
+  .button1 {
+    background-color: #3b4664;
+    color: white;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 60px;
+    border-radius: 12px;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  
+  .button2 {
+    background-color: #3b4664;
+    color: white;
+    font-size: 1.5rem;
+    width: calc(40% * 2 + 15px); /* Spans two columns */
+    height: 60px;
+    border-radius: 12px;
+    grid-column: span 2; /* Spans across 2 columns */
+    margin-bottom: 20px; /* Adds spacing below */
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+  
+  .button3 {
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    width: calc(40% * 2 + 15px); /* Spans two columns */
+    height: 60px;
+    border-radius: 12px;
+    grid-column: span 2; /* Spans across 2 columns */
+    margin-top: 20px;
+    margin-left: 5px;
+  }
